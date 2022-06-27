@@ -1,0 +1,44 @@
+body{
+	font-family: avenir LT Std;
+	background-color: #E8E8E8;
+}
+
+.table1{
+	background: #227F17;
+	color: white;
+	font-size: 32px;
+	text-align: center;
+}
+
+.table2{
+	background: white;
+	margin-top: 5px;
+}
+
+a{
+	text-decoration: none;
+	color:#227F17;
+}
+
+a:active{
+	background-color: #227F17;
+	color: white;
+}
+
+a:hover{
+	font-size: 18px;
+}
+
+.table3{
+	margin-top: 15px;
+	background-color: white;
+}
+
+.footer{
+	font-size: 18px;
+	color: #227F17;
+}
+
+.button{
+	text-decoration: none;
+}

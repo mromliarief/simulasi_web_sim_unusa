@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 550px){
+	body{
+		background-color: white;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.container header{
+		width: 50%;
+		float: left;
+		display: flex;
+		flex-direction: auto;
+		font-size: 14px;
+	}
+
+	.container menu a{
+		width: 50%;
+		float: left;
+		display: flex;
+		flex-direction: auto;
+		position: relative;
+	}
+
+	.container menu option{
+		width: 30%;
+		display: block;
+		float: none;
+	}
+
+	.container welcome{
+		width: 30%;
+		float: left;
+		display: flex;
+		flex-direction: auto;
+	}
+
+	.container content{
+		width: 50%;
+		float: left;
+		display: flex;
+		flex-direction: auto;
+	}
+
+	.container content p{
+		float: left;
+		display: flex;
+		flex-direction: auto;
+	}
+
+	.container button{
+		float: left;
+		display: flex;
+		flex-direction: auto;
+	}
+
+	.container footer{
+		width: 50%;
+		float: left;
+		display: flex;
+		flex-direction: auto;
+	}
+}
